@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="daydate.css" />
+    <link rel="stylesheet" href="greeting.css" />
+    <link rel="stylesheet" href="topbuttons.css" />
+    <!-- <link rel="stylesheet" href="gradient.css"> -->
+    <title>Mess Menu</title>
+    <style>
+      body {
+        background: linear-gradient(45deg, #ff8080, #ffcc80, #80d4ff, #80ffaa);
+        background-size: 400% 400%;
+        animation: gradientAnimation 10s ease infinite;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      @keyframes gradientAnimation {
+        0% {
+          background-position: 0% 50%;
+        }
+
+        50% {
+          background-position: 100% 50%;
+        }
+
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      h1 {
+        font-family: "Croissant One", cursive;
+      }
+
+      .geekyvishal {
+        height: 100px;
+        border-radius: 400px;
+      }
+
+      .geekyvishal:hover {
+        transition: all 0.1s ease;
+        transform: scale(1.1);
+        box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="day"></div>
+      <div id="date"></div>
+      <div id="greeting"></div>
+
+      <h1>Mess Menu</h1>
+      <div id="menu"></div>
+
+      <div class="navfont">Give feedback for :</div>
+
+
+      <a href="https://forms.gle/qPeu77LezGxQY5cZ8" target="_blank">
+        <button type="button" class="foodfeedback">FOOD</button>
+      </a>
+
+      <a href="https://forms.gle/1kKqkMJjRbjesQRP6" target="_blank">  
+        <button type="button" class="foodfeedback">WEBSITE</button>
+      </a>
+    </div>
+
+    <strong>Designed and Created by:</strong>
+    <br />
+    <br />
+
+    <a href="https://github.com/geeekyvishal" target="_blank">
+      <img
+        src="https://avatars.githubusercontent.com/u/141127867?v=4"
+        alt="geekyvishal"
+        class="geekyvishal"
+      />
+    </a>
+
+    <br />
+    <strong> geekyvishal</strong>
+
+    <script src="newscript.js"></script>
+    <script src="daydate.js"></script>
+    <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScZaTUWSOO_R6LtcPPwlHDenjeZabq-L0jVRThIrJn5m2lmTA/viewform?embedded=true" width="640" height="1523" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+  </body>
+</html>
+
+
